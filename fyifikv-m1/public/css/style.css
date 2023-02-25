@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo > h1 {
+    font-family: 'Gajraj One';
+    font-size: 25px;
+    margin: 0;
+    transform: rotate(-5deg);
+}
+
+.container {
+    gap: 20px;
+}
+
+.navbar_link {
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    transition: .2s;
+}
+
+.navbar_link:hover {
+    color: black;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 15px;
+}
+
+.catalag {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+

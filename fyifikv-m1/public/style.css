@@ -1,0 +1,61 @@
+.about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.about_ {
+    width: 50%;
+}
+.about_ > img {
+    width: 100%;
+    height: 100%;
+}
+.about__ {
+    width: 45%;
+}
+.about__ span{
+    color: rgb(114, 112, 112);
+}
+
+.navbar_link {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Стили для странички о нас */
+
+.abouts {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.abouts_ {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.catalog {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalog_item {
+    width: 30%;
+}
+
+.catalog_item > img {
+    width: 100%;
+}
+
+
+
