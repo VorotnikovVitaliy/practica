@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo > h1 {
+    font-family: 'Gajraj One';
+    font-size: 25px;
+    margin: 0;
+    transform: rotate(-5deg);
+}
+
+.container {
+    gap: 20px;
+}
+
+.navbar_link {
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    transition: .2s;
+}
+
+.navbar_link:hover {
+    color: black;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 15px;
+}
+
+.catalag {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog_sortirovka {
+    width: 19%;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+.catalog {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.catalog_item {
+    width: 30%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    gap: 10px;
+    box-shadow: 3px 3px 3px gray;
+    position: relative;
+}
+
+.catalog_item > img {
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+}
+
+.catalog_item_price {
+    text-align: end;
+}
+
+.catalog_item_a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+

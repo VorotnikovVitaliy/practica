@@ -7,8 +7,8 @@ use App\Models\product;
 
 class ProductController extends Controller
 {
-    public function showcatalog() {
-        $product = product::orderBy("created_at", "asc") -> get();
+    public function showcatalog($id = "id", $sort = "desc") {
+        $product = product::orderBy($id, $sort) -> limit(6) -> get();
         return view('katalog', ['product' => $product]);
     }
 }
