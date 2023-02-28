@@ -33,7 +33,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
                         <li class="navbar_item">
-                            <a class="navbar_link" href="{{ url('/abouts') }}">О нас</a>
+                            <a class="navbar_link" href="{{ url('/') }}">О нас</a>
                         </li>
                         <li class="navbar_item">
                             <a class="navbar_link" href="{{ url('/catalog') }}">Каталог</a>
