@@ -11,4 +11,9 @@ class ProductController extends Controller
         $product = product::orderBy($id, $sort) -> limit(6) -> get();
         return view('katalog', ['product' => $product]);
     }
+
+    public function slaiderItems($id = "id", $sort = "desc") {
+        $product = product::orderBy($id, $sort) -> limit(5) -> get();
+        return view('abouts', ['product' => $product]);
+    }
 }

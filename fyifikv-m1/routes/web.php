@@ -21,7 +21,7 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'home_']);
 Route::get('/about', [App\Http\Controllers\IndexController::class, 'about']);
-Route::get('/', [App\Http\Controllers\IndexController::class, 'abouts']);
+Route::get('/', [App\Http\Controllers\ProductController::class, 'slaiderItems']);
 Route::get('/catalog', [App\Http\Controllers\ProductController::class, 'showcatalog']);
 // Route::get('/ludi', [App\Http\Controllers\LudiController::class, 'spisokludi']);
 

@@ -21,6 +21,8 @@ return new class extends Migration
             $table->string('price');
             $table->string('god');
             $table->string('kategoria');
+            $table->string('strana');
+            $table->string('modelika');
         });
     }
 

@@ -95,13 +95,50 @@
     top: 0;
 }
 
+.abouts {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: white;
+    border-radius: 5px;
+    gap: 50px;
+    box-shadow: 1px 1px 4px rgb(77, 77, 77);
+}
 
+.abouts_ {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
 
+.abouts_slaider {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
 
+.abouts_slaider_text {
+    font-size: 30px;
+    font-weight: 600;
+}
 
+.carousel-item.active {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
 
+.carousel-item {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
 
-
-
-
+.carousel-item > img {
+    width: 70% !important;
+    height: 80vh;
+}
 
