@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string('kategoria');
             $table->string('strana');
             $table->string('modelika');
+            $table->string('kol-vo');
         });
     }
 

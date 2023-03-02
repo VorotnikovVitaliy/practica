@@ -16,4 +16,9 @@ class ProductController extends Controller
         $product = product::orderBy($id, $sort) -> limit(5) -> get();
         return view('abouts', ['product' => $product]);
     }
+
+    public function singlproduct($id) {
+        $product = product::find($id);
+        return view('oneproduct', ['a' => $product]);
+    }
 }
