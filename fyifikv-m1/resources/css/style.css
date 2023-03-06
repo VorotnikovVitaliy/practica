@@ -168,7 +168,43 @@
 }
 
 
+.form-admin {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
 
+.form-admin > p {
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    background-color: greenyellow;
+    border-radius: 5px;
+}
 
+.form-admin > form {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.form-add {
+    width: 11%;
+}
 
+.form-add > input {
+    width: 100%;
+    border-radius: 5px;
+    border: solid 1px black;
+    height: 100%;
+    padding-left: 5px;
+}
+
+.form-add > input:focus {
+    outline: none;
+}

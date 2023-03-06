@@ -25,6 +25,9 @@ Route::get('/', [App\Http\Controllers\ProductController::class, 'slaiderItems'])
 Route::get('/catalog', [App\Http\Controllers\ProductController::class, 'showcatalog']);
 Route::get('/catalog/{id}', [App\Http\Controllers\ProductController::class, 'singlproduct']);
 
+Route::get('/adminadd', [App\Http\Controllers\AdminaaddController::class, 'createitem']);
+Route::post('/adminadd', [App\Http\Controllers\AdminaaddController::class, 'additem']);
+
 // Route::get('/ludi', [App\Http\Controllers\LudiController::class, 'spisokludi']);
 
 
