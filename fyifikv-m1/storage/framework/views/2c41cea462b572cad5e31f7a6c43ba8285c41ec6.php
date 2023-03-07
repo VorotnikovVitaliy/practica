@@ -3,6 +3,7 @@
     <?php $__env->startSection('content'); ?>
     
     <div class="about">
+        <p>Где нас найти</p>
         <div class="about_">
             <img src="../resources/img/map.jpg" alt="#">
         </div>

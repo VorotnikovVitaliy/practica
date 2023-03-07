@@ -208,3 +208,67 @@
 .form-add > input:focus {
     outline: none;
 }
+
+.about {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    padding: 10% 5% 5% 5%;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
+}
+
+.about > p {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.about_{
+    width: 50%;
+}
+
+.about_ > img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

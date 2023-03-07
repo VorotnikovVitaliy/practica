@@ -1,13 +1,18 @@
 <?php $__env->startSection('content'); ?>
     <div class="catalag">
-        <div class="catalog_sortirovka"></div>
+        <div class="catalog_sortirovka">
+            <div class="catalog_sortirovka_title"></div>
+            <div class="catalog_sortirovka_sort">
+
+            </div>
+        </div>
         <div class="catalog">
             <?php $__currentLoopData = $product; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $a): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
             <div class="catalog_item">
                 <img src="<?php echo e($a -> img); ?>" alt="#">
                 <div class="catalog_item_name"><?php echo e($a -> name); ?></div>
                 <div class="catalog_item_price"><?php echo e($a -> price); ?></div>
-                <a class="catalog_item_a" href="/public/catalog/<?php echo e($a -> id); ?>"></a>
+                <a class="catalog_item_a" href="/public/singlitem/<?php echo e($a -> id); ?>"></a>
             </div>
             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
         </div>
