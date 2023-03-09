@@ -84,7 +84,12 @@
 }
 
 .catalog_item_price {
-    text-align: end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog_item_price > button{
+    z-index: 5;
 }
 
 .catalog_item_a {
@@ -239,7 +244,11 @@
     height: 100%;
 }
 
-
+.catalog_sortirovka_title { 
+    padding: 5%;
+    font-weight: 700;
+    font-size: 25px;
+}
 
 
 

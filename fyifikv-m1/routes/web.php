@@ -32,6 +32,11 @@ Route::get('/singlitem/{id}', [App\Http\Controllers\ProductController::class, 's
 Route::get('/adminadd', [App\Http\Controllers\AdminaaddController::class, 'createitem']);
 Route::post('/adminadd', [App\Http\Controllers\AdminaaddController::class, 'additem'])->name('adminadd');
 
+
+Route::get('/basket',[App\Http\Controllers\BasketController::class, 'baskett'])->name('basket');
+Route::get('/basket/{id?}',[App\Http\Controllers\BasketController::class, 'productt']);
+Route::get('/basket/{id?}/delete',[App\Http\Controllers\BasketController::class, 'deletebasket']);
+
 // Route::get('/ludi', [App\Http\Controllers\LudiController::class, 'spisokludi']);
 
 

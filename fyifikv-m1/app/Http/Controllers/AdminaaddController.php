@@ -23,7 +23,7 @@ class AdminaaddController extends Controller
         $fileName=$k->move(public_path('img'), $k->getClientOriginalName());  
         product::create([
             'name'=>$req->input('name-item'),
-            'img'=>'/public/img'.$k->getClientOriginalName(),
+            'img'=>'/public/img/'.$k->getClientOriginalName(),
             'price'=>$req->input('price'),
             'god'=>$req->input('god'),
             'kategoria'=>$req->input('kategoria'),

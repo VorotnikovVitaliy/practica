@@ -3,7 +3,6 @@
 @section('content')
 
     <div class="form-admin">
-
         <p>Add BD!</p>
         <form action="{{ url('/adminadd') }}" method="post" enctype="multipart/form-data">
             @csrf
